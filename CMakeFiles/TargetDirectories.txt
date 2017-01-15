@@ -1,1 +1,1 @@
-/home/chris/project/cbproj/CMakeFiles/main.dir
+/home/chris/project/codeblocks-cmake/CMakeFiles/main.dir

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chris/project/cbproj/staticlib/src/StaticClass.cpp" "/home/chris/project/cbproj/staticlib/CMakeFiles/staticlib.dir/src/StaticClass.cpp.o"
+  "/home/chris/project/codeblocks-cmake/staticlib/src/StaticClass.cpp" "/home/chris/project/codeblocks-cmake/staticlib/CMakeFiles/staticlib.dir/src/StaticClass.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-/home/chris/project/cbproj/staticlib/CMakeFiles/staticlib.dir
+/home/chris/project/codeblocks-cmake/staticlib/CMakeFiles/staticlib.dir

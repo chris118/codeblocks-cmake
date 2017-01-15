@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/project/cbproj/staticlib/src/StaticClass.cpp
+/home/chris/project/codeblocks-cmake/staticlib/src/StaticClass.cpp
 StaticClass.h
-/home/chris/project/cbproj/staticlib/src/StaticClass.h
+/home/chris/project/codeblocks-cmake/staticlib/src/StaticClass.h
 iostream
 -
 

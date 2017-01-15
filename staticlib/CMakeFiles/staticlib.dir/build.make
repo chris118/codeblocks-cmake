@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/project/cbproj/staticlib
+CMAKE_SOURCE_DIR = /home/chris/project/codeblocks-cmake/staticlib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/project/cbproj/staticlib
+CMAKE_BINARY_DIR = /home/chris/project/codeblocks-cmake/staticlib
 
 # Include any dependencies generated for this target.
 include CMakeFiles/staticlib.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/staticlib.dir/flags.make
 
 CMakeFiles/staticlib.dir/src/StaticClass.cpp.o: CMakeFiles/staticlib.dir/flags.make
 CMakeFiles/staticlib.dir/src/StaticClass.cpp.o: src/StaticClass.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/project/cbproj/staticlib/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/project/codeblocks-cmake/staticlib/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/staticlib.dir/src/StaticClass.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/staticlib.dir/src/StaticClass.cpp.o -c /home/chris/project/cbproj/staticlib/src/StaticClass.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/staticlib.dir/src/StaticClass.cpp.o -c /home/chris/project/codeblocks-cmake/staticlib/src/StaticClass.cpp
 
 CMakeFiles/staticlib.dir/src/StaticClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/staticlib.dir/src/StaticClass.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chris/project/cbproj/staticlib/src/StaticClass.cpp > CMakeFiles/staticlib.dir/src/StaticClass.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chris/project/codeblocks-cmake/staticlib/src/StaticClass.cpp > CMakeFiles/staticlib.dir/src/StaticClass.cpp.i
 
 CMakeFiles/staticlib.dir/src/StaticClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/staticlib.dir/src/StaticClass.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chris/project/cbproj/staticlib/src/StaticClass.cpp -o CMakeFiles/staticlib.dir/src/StaticClass.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chris/project/codeblocks-cmake/staticlib/src/StaticClass.cpp -o CMakeFiles/staticlib.dir/src/StaticClass.cpp.s
 
 CMakeFiles/staticlib.dir/src/StaticClass.cpp.o.requires:
 .PHONY : CMakeFiles/staticlib.dir/src/StaticClass.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/staticlib.dir/clean:
 .PHONY : CMakeFiles/staticlib.dir/clean
 
 CMakeFiles/staticlib.dir/depend:
-	cd /home/chris/project/cbproj/staticlib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/project/cbproj/staticlib /home/chris/project/cbproj/staticlib /home/chris/project/cbproj/staticlib /home/chris/project/cbproj/staticlib /home/chris/project/cbproj/staticlib/CMakeFiles/staticlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/project/codeblocks-cmake/staticlib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/project/codeblocks-cmake/staticlib /home/chris/project/codeblocks-cmake/staticlib /home/chris/project/codeblocks-cmake/staticlib /home/chris/project/codeblocks-cmake/staticlib /home/chris/project/codeblocks-cmake/staticlib/CMakeFiles/staticlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/staticlib.dir/depend
 

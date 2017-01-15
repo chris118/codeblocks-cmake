@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/project/cbproj
+CMAKE_SOURCE_DIR = /home/chris/project/codeblocks-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/project/cbproj
+CMAKE_BINARY_DIR = /home/chris/project/codeblocks-cmake
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/project/cbproj/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/project/codeblocks-cmake/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/chris/project/cbproj/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/chris/project/codeblocks-cmake/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chris/project/cbproj/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chris/project/codeblocks-cmake/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chris/project/cbproj/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chris/project/codeblocks-cmake/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/main.dir/main.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/chris/project/cbproj && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/project/cbproj /home/chris/project/cbproj /home/chris/project/cbproj /home/chris/project/cbproj /home/chris/project/cbproj/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chris/project/codeblocks-cmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/project/codeblocks-cmake /home/chris/project/codeblocks-cmake /home/chris/project/codeblocks-cmake /home/chris/project/codeblocks-cmake /home/chris/project/codeblocks-cmake/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

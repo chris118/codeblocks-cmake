@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/project/cbproj/staticlib
+CMAKE_SOURCE_DIR = /home/chris/project/codeblocks-cmake/staticlib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/project/cbproj/staticlib
+CMAKE_BINARY_DIR = /home/chris/project/codeblocks-cmake/staticlib
 
 #=============================================================================
 # Target rules for target CMakeFiles/staticlib.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/chris/project/cbproj/staticlib
 CMakeFiles/staticlib.dir/all:
 	$(MAKE) -f CMakeFiles/staticlib.dir/build.make CMakeFiles/staticlib.dir/depend
 	$(MAKE) -f CMakeFiles/staticlib.dir/build.make CMakeFiles/staticlib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/project/cbproj/staticlib/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/project/codeblocks-cmake/staticlib/CMakeFiles  1
 	@echo "Built target staticlib"
 .PHONY : CMakeFiles/staticlib.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/staticlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/staticlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/project/cbproj/staticlib/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/project/codeblocks-cmake/staticlib/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/staticlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/project/cbproj/staticlib/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chris/project/codeblocks-cmake/staticlib/CMakeFiles 0
 .PHONY : CMakeFiles/staticlib.dir/rule
 
 # Convenience name for target.

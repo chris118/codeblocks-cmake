@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/chris/project/cbproj/main.cpp
+/home/chris/project/codeblocks-cmake/main.cpp
 iostream
 -
 StaticClass.h
-/home/chris/project/cbproj/StaticClass.h
+/home/chris/project/codeblocks-cmake/StaticClass.h
 
 staticlib/include/StaticClass.h
 
