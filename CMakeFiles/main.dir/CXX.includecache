@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chris/project/cbproj/main.cpp
+iostream
+-
+StaticClass.h
+/home/chris/project/cbproj/StaticClass.h
+
+staticlib/include/StaticClass.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g   -shared -Wl,-soname,libstaticlib.so -o libstaticlib.so CMakeFiles/staticlib.dir/src/StaticClass.cpp.o 

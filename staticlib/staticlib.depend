@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1484453003 source:/home/chris/project/cbproj/staticlib/main.cpp
+
+1484454058 source:/home/chris/project/cbproj/staticlib/src/StaticClass.cpp
+	"StaticClass.h"
+
+1484453303 /home/chris/project/cbproj/staticlib/include/StaticClass.h
+
